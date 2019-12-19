@@ -2,9 +2,9 @@
 
 CTS-LSTM: LSTM-based neural networks for Correlated Time Series prediction
 
-![The framework of CTS-LSTM](C:\Users\lxh\Desktop\CTS-LSTM\images\The framework of CTS-LSTM.png)
+![The framework of CTS-LSTM](https://github.com/bettermia/CTSLSTM/blob/master/images/The%20framework%20of%20CTS-LSTM.png?raw=true)
 
-![The structure of ST-cell](C:\Users\lxh\Desktop\CTS-LSTM\images\The structure of ST-cell.png)
+![The structure of ST-cell](https://github.com/bettermia/CTSLSTM/blob/master/images/The%20structure%20of%20ST-cell.png?raw=true)
 
 
 
@@ -14,7 +14,7 @@ The air quality dataset is scratched from a public [website](http://zx.bjmemc.co
 
 Statistics of the air quality dataset:
 
-![Statistics of the air quality dataset](C:\Users\lxh\Desktop\CTS-LSTM\images\Statistics of the air quality dataset.png)
+![Statistics of the air quality dataset](https://github.com/bettermia/CTSLSTM/blob/master/images/Statistics%20of%20the%20air%20quality%20dataset.png?raw=true)
 
 We select 1st Jan. 2017 to 19th Nov. 2017 as the training set, and the remainders as the test set. 
 
