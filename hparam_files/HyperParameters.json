@@ -1,0 +1,21 @@
+{
+    "gpu_id": "0",
+
+    "epoch": 2000, 
+    "learning_rate": 0.001,
+    "dropout_rate": 0.1,
+    "batch_size": 512,
+    "n_test_samples": 15,
+    
+    "n_input": 34,
+    "n_steps": 24,
+    "n_hidden_in": 32,
+    "n_hidden_out": 16,
+    "n_output": 34,
+    "n_fusion": 64,
+
+    "priorMatrix_path": "./data/beijingPriorMatirx.csv",
+    "train_data_path": "./data/BeijingNO2.csv",
+    "test_data_path": "./data/BeijingNO2.csv",
+    "output_path": "./output"
+}
