@@ -4,9 +4,10 @@ CTS-LSTM: LSTM-based neural networks for Correlated Time Series prediction
 
 ![The framework of CTS-LSTM](https://github.com/bettermia/CTSLSTM/blob/master/images/The%20framework%20of%20CTS-LSTM.png?raw=true)
 
+<center>Fig.1 The framework of CTS-LSTM</center>
+
 ![The structure of ST-cell](https://github.com/bettermia/CTSLSTM/blob/master/images/The%20structure%20of%20ST-cell.png?raw=true)
-
-
+<center>Fig.2 The structure of ST-cell</center>
 
 # Dataset
 
@@ -16,11 +17,12 @@ Statistics of the air quality dataset:
 
 ![Statistics of the air quality dataset](https://github.com/bettermia/CTSLSTM/blob/master/images/Statistics%20of%20the%20air%20quality%20dataset.png?raw=true)
 
+
 We select 1st Jan. 2017 to 19th Nov. 2017 as the training set, and the remainders as the test set. 
 
-The values of the sensors in a city are correlated in the spatial dimension since pollutants diffuse and aggregate gradually in the space. For each pollutant, we predict the values of all the sensors in the following day, thus the prediction time interval $k \in \{1,\cdots,24\}$.
+The values of the sensors in a city are correlated in the spatial dimension since pollutants diffuse and aggregate gradually in the space. For each pollutant, we predict the values of all the sensors in the following day, thus the prediction time interval <a href="https://www.codecogs.com/eqnedit.php?latex=k&space;\in&space;\{1,\cdots,24\}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?k&space;\in&space;\{1,\cdots,24\}" title="k \in \{1,\cdots,24\}" /></a>.
 
-The spatial relationship matrix $S$ is initialized by the reciprocal of distance between sensors.
+The spatial relationship matrix <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a> is initialized by the reciprocal of distance between sensors.
 
 Finally, we provide three air quality dataset:
 
