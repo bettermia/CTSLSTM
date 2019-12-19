@@ -4,10 +4,10 @@ CTS-LSTM: LSTM-based neural networks for Correlated Time Series prediction
 
 ![The framework of CTS-LSTM](https://github.com/bettermia/CTSLSTM/blob/master/images/The%20framework%20of%20CTS-LSTM.png?raw=true)
 
-<center>Fig.1 The framework of CTS-LSTM</center>
+<p align="center">Fig.1 The framework of CTS-LSTM</p>
 
 ![The structure of ST-cell](https://github.com/bettermia/CTSLSTM/blob/master/images/The%20structure%20of%20ST-cell.png?raw=true)
-<center>Fig.2 The structure of ST-cell</center>
+<p align="center">Fig.2 The structure of ST-cell</p>
 
 # Dataset
 
